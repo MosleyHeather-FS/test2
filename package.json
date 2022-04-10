@@ -1,0 +1,24 @@
+{
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "NodeJS Test app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "NodeJS",
+    "API",
+    "Test"
+  ],
+  "author": "Heather Mosley",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "expree": "^0.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
