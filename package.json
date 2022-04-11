@@ -4,7 +4,7 @@
   "description": "NodeJS Test app",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watchAll",
     "start": "nodemon server"
   },
   "keywords": [
@@ -19,6 +19,7 @@
     "expree": "^0.1.6"
   },
   "devDependencies": {
+    "jest": "^27.5.1",
     "nodemon": "^2.0.15"
   }
 }
