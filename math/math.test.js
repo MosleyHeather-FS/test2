@@ -19,6 +19,6 @@ describe("Testing the math module", () => {
         expect(squareRoot(625)).toBe(25);
     });
     test("should show max", () => {
-        expect(max(2 && 1)).toBe(1);
+        expect(max(2, 1)).toBe(2);
     });
 });
